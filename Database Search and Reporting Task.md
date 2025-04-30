@@ -12,4 +12,7 @@
 
 
 # *__2. DBMS Advantages Mind Map__*
-[DBMS advantage](https://boardmix.com/app/editor/ylyq3dQTp-fuCc2-5O5aCA). 
+
+![Tux, the Linux mascot](./images/DBMS_Advantages_Mind_Map.png)
+
+
