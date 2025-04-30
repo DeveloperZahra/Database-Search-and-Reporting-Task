@@ -10,4 +10,6 @@
 | **Example Usage**     | Simple contact lists, CSV exports, log files, flat configuration files. | Enterprise applications, inventory systems, customer relationship management (CRM) systems. |
 | **Drawbacks**         | - Not scalable<br>- Difficult to manage relationships<br>- Higher risk of inconsistency<br>- Poor performance with large data | - More complex to set up and maintain<br>- Requires a database management system (DBMS)<br>- Overhead for small/simple tasks |
 
-------------------------------------------------------
+
+# *__2. DBMS Advantages Mind Map__*
+[DBMS advantage](https://boardmix.com/app/editor/ylyq3dQTp-fuCc2-5O5aCA). 
