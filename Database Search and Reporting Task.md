@@ -220,6 +220,68 @@ A Database Engine is the core software component that:
 *  **WiredTiger** – Default engine for MongoDB.
 ---------------------------------------------------------------
 
+🔹 Examples: SQL Server, MySQL, Oracle, PostgreSQL
+
+1.**SQL Server**
+
+* Developer: Microsoft
+
+* Type: Relational Database(RDBMS)
+
+* Engine: SQL Server Database Engine
+
+* Platform: Windows and Linux
+
+* Best For: Enterprise applications, especially in Microsoft ecosystems.
+
+*Use Case Example:
+A hospital management system using Microsoft SQL Server to manage patient records, appointments, and billing securely and reliably.
+
+ 2. **MySQL**
+
+  * Developer: Oracle Corporation
+
+* Type: Open - source RDBMS
+
+* Engines: InnoDB(default), MyISAM(legacy)
+
+* Platform: Cross - platform
+
+* Best For: Web applications, LAMP stack(Linux, Apache, MySQL, PHP / Python)
+
+*  Use Case Example:
+            A blogging platform like WordPress uses MySQL to store posts, comments, and user data.
+
+ 3. **Oracle Database**
+
+* Developer: Oracle Corporation
+
+* Type: High - performance RDBMS
+
+* Engine: Oracle DB Engine(proprietary)
+
+* Platform: Cross - platform, mainly used in large - scale systems
+
+* Best For: Large enterprises, financial institutions, mission - critical applications.
+
+* Use Case Example:
+            A banking system using Oracle Database to manage millions of daily transactions, ensuring data integrity and performance.
+
+4. **PostgreSQL**
+
+* Developer: Open - source community
+
+* Type: Object - Relational Database(advanced RDBMS)
+
+* Engine: PostgreSQL Engine
+
+* Platform: Cross - platform
+
+* Best For: Applications requiring complex queries, data types, and performance tuning.
+
+* Use Case Example:
+            A geographic information system(GIS) using PostgreSQL with PostGIS to manage spatial and location data.
+
 
  
  
