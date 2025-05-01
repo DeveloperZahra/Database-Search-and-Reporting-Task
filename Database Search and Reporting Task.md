@@ -117,4 +117,28 @@ Key Responsibilities:
 
 * Support business teams with actionable intelligence
  
+ -------------------------------------------------------------
+ # *_Additional Research Topics to Include in the Report:_*
 
+<ins>  __**Types of Databases**__ </ins>
+
+   ?? Relational vs Non-Relational Databases:
+
+|          |Relational  Databases | Non-Relational Databases|
+|----------|----------------------|-------------------------|        
+|Structure|Use tables with rows and columns|Document, key-value, column-family, or graph-based|
+|Features|Data is related through keys (primary/foreign)|More flexible schema; doesn’t require fixed tables|
+|Examples|MySQL, PostgreSQL, Oracle|MongoDB (document), Cassandra (column-family), Redis (key-value)|
+|Best For| Structured data with clear relationships.|Unstructured or semi-structured data, scalability|
+|Use Case| An online banking system where customer info, transactions, and account details must be related and queried reliably |A social media platform storing user-generated content like posts, images, likes, and comments using MongoDB for fast access and flexible formats|
+
+-----------------------------------------------------
+
+?? Centralized vs Distributed vs Cloud Databases:
+
+|           |Centralized Database | Distributed Databases | Cloud Databases|
+|-----------|---------------------|-------------|----------------|
+|           |All data stored in one location/server | Data is spread across multiple locations/nodes|Hosted on cloud platforms (AWS, Azure, Google Cloud)|
+|           |Easier to manage but may be a single point of failure|Offers better reliability and availability|Offers scalability, high availability, and low maintenance|
+|           |Example: Small company ERP system on one server| Examples: Google Spanner, Apache Cassandra| Examples: Amazon RDS, Firebase, Google Cloud Spanner|
+|           | Use Case:A university's internal system managing student records on a single on-premise server |Use Case:A global e-commerce platform using a distributed system like Cassandra to keep inventory data synced across continents|Use Case:A mobile app backend (e.g., a ride-sharing app) using Firebase for real-time user data and location tracking|
