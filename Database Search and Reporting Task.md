@@ -181,6 +181,44 @@ Key Responsibilities:
 * Amazon RDS (Relational Database Service): Supports MySQL, PostgreSQL, Oracle, etc.
 
 * Google Cloud Spanner: Globally distributed, horizontally scalable relational DB.
+-----------------------------------------------------------------------------------
+   
+   <ins>  __*(3) Database Engines and Languages*__ </ins>
+
+   🔹 What is a Database Engine?
+
+A Database Engine is the core software component that:
+
+* Stores, retrieves, modifies, and manages data in a database.
+
+* Handles the execution of SQL queries, transactions, indexing, and data integrity.
+
+* Acts as the "brain" of the database system—it processes all commands and manages access to the underlying data files.
+
+🔹 Key Functions of a Database Engine:
+
+1. **Query Processing:**  Parses and executes SQL statements.
+
+2. **Transaction Management:**  Ensures data consistency through ACID (Atomicity, Consistency, Isolation, Durability) properties.
+
+3. **Indexing:** Improves the speed of data retrieval.
+
+4. **Storage Management:** Manages how data is physically stored on disk.
+
+5. **Concurrency Control:** Manages access when multiple users interact with the database at the same time.
+
+🔹 Examples of Database Engines:
+
+**InnoDB** – Default engine for MySQL (supports transactions).
+
+**MyISAM** – Older MySQL engine (faster reads, no transaction support).
+
+**SQL Server Engine** – Used by Microsoft SQL Server.
+
+**PostgreSQL Engine** – Built-in advanced engine for PostgreSQL.
+
+**WiredTiger** – Default engine for MongoDB.
+
 
 
  
