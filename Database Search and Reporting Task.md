@@ -1,12 +1,12 @@
-# _*1.Comparison Assignment*_ 
+﻿# _*1.Comparison Assignment*_ 
 
 **_Flat File Systems vs. Relational Databases_**
 
 | Feature              | Flat File Systems                                | Relational Databases                             |
 |----------------------|---------------------------------------------------|--------------------------------------------------|
 | **Structure**         | Data is stored in plain text or CSV files, with each file typically representing a single table. | Data is stored in structured tables with defined schemas (rows and columns). Tables can be linked. |
-| **Data Redundancy**   | High � same data often needs to be duplicated across multiple files. | Low � data is normalized and redundancy is minimized through relationships. |
-| **Relationships**     | No direct support � data linking must be manually handled, which can be error-prone. | Supports relationships through foreign keys and joins between tables. |
+| **Data Redundancy**   | High – same data often needs to be duplicated across multiple files. | Low – data is normalized and redundancy is minimized through relationships. |
+| **Relationships**     | No direct support – data linking must be manually handled, which can be error-prone. | Supports relationships through foreign keys and joins between tables. |
 | **Example Usage**     | Simple contact lists, CSV exports, log files, flat configuration files. | Enterprise applications, inventory systems, customer relationship management (CRM) systems. |
 | **Drawbacks**         | - Not scalable<br>- Difficult to manage relationships<br>- Higher risk of inconsistency<br>- Poor performance with large data | - More complex to set up and maintain<br>- Requires a database management system (DBMS)<br>- Overhead for small/simple tasks |
 
@@ -118,23 +118,23 @@ Key Responsibilities:
 * Support business teams with actionable intelligence
  
  -------------------------------------------------------------
- # *_Additional Research Topics to Include in the Report:_*
+ # *_Additional Research Topics to Include in the Report_*
 
-<ins>  __**Types of Databases**__ </ins>
+<ins>  __*(1) Types of Databases*__ </ins>
 
-   ?? Relational vs Non-Relational Databases:
+   🔹 Relational vs Non-Relational Databases:
 
 |          |Relational  Databases | Non-Relational Databases|
 |----------|----------------------|-------------------------|        
 |Structure|Use tables with rows and columns|Document, key-value, column-family, or graph-based|
-|Features|Data is related through keys (primary/foreign)|More flexible schema; doesn�t require fixed tables|
+|Features|Data is related through keys (primary/foreign)|More flexible schema; doesn’t require fixed tables|
 |Examples|MySQL, PostgreSQL, Oracle|MongoDB (document), Cassandra (column-family), Redis (key-value)|
 |Best For| Structured data with clear relationships.|Unstructured or semi-structured data, scalability|
 |Use Case| An online banking system where customer info, transactions, and account details must be related and queried reliably |A social media platform storing user-generated content like posts, images, likes, and comments using MongoDB for fast access and flexible formats|
 
 -----------------------------------------------------
 
-?? Centralized vs Distributed vs Cloud Databases:
+🔹 Centralized vs Distributed vs Cloud Databases:
 
 |           |Centralized Database | Distributed Databases | Cloud Databases|
 |-----------|---------------------|-------------|----------------|
@@ -142,3 +142,46 @@ Key Responsibilities:
 |           |Easier to manage but may be a single point of failure|Offers better reliability and availability|Offers scalability, high availability, and low maintenance|
 |           |Example: Small company ERP system on one server| Examples: Google Spanner, Apache Cassandra| Examples: Amazon RDS, Firebase, Google Cloud Spanner|
 |           | Use Case:A university's internal system managing student records on a single on-premise server |Use Case:A global e-commerce platform using a distributed system like Cassandra to keep inventory data synced across continents|Use Case:A mobile app backend (e.g., a ride-sharing app) using Firebase for real-time user data and location tracking|
+
+----------------------------------------------------------
+<ins>  __*(2) Cloud Storage and Databases*__ </ins>
+
+🔹 What is Cloud Storage?
+
+**Definition:**  Cloud storage is a service that allows data to be stored on remote servers accessed via the internet.
+
+**Examples:**  Google Drive, Amazon S3, Dropbox.
+
+🔹 How Does Cloud Storage Relate to Databases?
+
+     * Cloud storage is used to hold files, backups, media, and unstructured data.
+
+     * Cloud databases, on the other hand, are database services hosted in the cloud that store structured or semi-structured data and allow querying, analytics, and transactions.
+
+* Often, both work together:
+
+      * Cloud storage = saves raw data (e.g., logs, backups).
+
+      * Cloud database = manages structured data (e.g., customer records, product info).
+
+🔹 Advantages & Disadvantages of Cloud-Based Databases:
+
+|     | Advantages of Cloud-Based Databases | Disadvantagesof Cloud-Based Databases|
+|-----|--------------------------------|---------------------------------------|
+| 1   | **Scalability:**   * Easy to scale up or down based on traffic.  *Example: Auto-scaling with Amazon RDS. |**Dependence on Internet:** You need stable internet access to use the service|
+| 2    |**Availability & Reliability:** Redundant servers across data centers mean higher uptime | **Data Security & Privacy:** *Sensitive data stored off-site may raise concerns.*Requires strong encryption and compliance|
+| 3    |**Lower Maintenance:** No need to manage hardware, backups, or software updates—handled by the provider | **Limited Control:** Less access to the underlying infrastructure compared to on-premises databases|
+| 4    |**Accessibility:** Can be accessed from anywhere with an internet connection | **Cost Over Time:** Long-term usage costs may rise, especially with high traffic or storage needs|
+| 5    | **Cost Efficiency:** Pay-as-you-go pricing; no upfront infrastructure investment|                                      |
+
+ **_Example Services:_** 
+
+* Azure SQL Database: Cloud version of Microsoft SQL Server.
+
+* Amazon RDS (Relational Database Service): Supports MySQL, PostgreSQL, Oracle, etc.
+
+* Google Cloud Spanner: Globally distributed, horizontally scalable relational DB.
+
+
+ 
+ 
