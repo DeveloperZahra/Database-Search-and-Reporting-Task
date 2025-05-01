@@ -209,16 +209,16 @@ A Database Engine is the core software component that:
 
 🔹 Examples of Database Engines:
 
-**InnoDB** – Default engine for MySQL (supports transactions).
+* **InnoDB** – Default engine for MySQL (supports transactions).
 
-**MyISAM** – Older MySQL engine (faster reads, no transaction support).
+* **MyISAM** – Older MySQL engine (faster reads, no transaction support).
 
-**SQL Server Engine** – Used by Microsoft SQL Server.
+* **SQL Server Engine** – Used by Microsoft SQL Server.
 
-**PostgreSQL Engine** – Built-in advanced engine for PostgreSQL.
+* **PostgreSQL Engine** – Built-in advanced engine for PostgreSQL.
 
-**WiredTiger** – Default engine for MongoDB.
-
+*  **WiredTiger** – Default engine for MongoDB.
+---------------------------------------------------------------
 
 
  
