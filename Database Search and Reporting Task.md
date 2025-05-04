@@ -234,7 +234,7 @@ A Database Engine is the core software component that:
 
 * Best For: Enterprise applications, especially in Microsoft ecosystems.
 
-*Use Case Example:
+* Use Case Example:
 A hospital management system using Microsoft SQL Server to manage patient records, appointments, and billing securely and reliably.
 
  2. **MySQL**
@@ -281,6 +281,9 @@ A hospital management system using Microsoft SQL Server to manage patient record
 
 * Use Case Example:
             A geographic information system(GIS) using PostgreSQL with PostGIS to manage spatial and location data.
+----------------------------------------------
+🔹What languages do they use? 
+
 
 
  
