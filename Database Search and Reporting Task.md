@@ -304,5 +304,14 @@ Engines extend ANSI SQL with their own features for more functionality.
  Yes. Each engine uses a specific dialect or variation of SQL that is tailored to its features.
  While the base SQL commands (like SELECT, INSERT, UPDATE, DELETE) are similar across engines, the procedural features, error handling, and built-in functions often vary.
 
+ -----------------------------------
 
+ 🔹 Can One Language Work Across Different Engines?
+
+Partially. Basic SQL (ANSI SQL) works across most database engines, so simple queries can often be reused.
+However, more advanced scripts or stored procedures written in T-SQL or PL/SQL are usually not compatible with other engines without modification.
+
+* For example:
+
+A stored procedure written in T-SQL for SQL Server won’t run on Oracle without being rewritten in PL/SQL.
 
