@@ -282,7 +282,7 @@ A hospital management system using Microsoft SQL Server to manage patient record
 * Use Case Example:
             A geographic information system(GIS) using PostgreSQL with PostGIS to manage spatial and location data.
 ----------------------------------------------
-🔹What languages do they use? 
+🔹 What languages do they use? 
 
 Each database engine uses a variation or extension of SQL (Structured Query Language). Here are some common examples:
 
@@ -298,5 +298,11 @@ ANSI SQL is the standard version of SQL that most engines support.
 
 Engines extend ANSI SQL with their own features for more functionality.
 
- 
- 
+----------------------------------------------
+🔹 Is there a relationship between the engine and the language? 
+
+ Yes. Each engine uses a specific dialect or variation of SQL that is tailored to its features.
+ While the base SQL commands (like SELECT, INSERT, UPDATE, DELETE) are similar across engines, the procedural features, error handling, and built-in functions often vary.
+
+
+
