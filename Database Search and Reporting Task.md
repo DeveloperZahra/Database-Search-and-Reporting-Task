@@ -397,3 +397,47 @@ Confirm:
 * Business logic works correctly
 
 * Performance is acceptable
+
+----------------------------------------------------------------------------
+<ins>  __*(5) Logical vs. Physical Schema*__ </ins>
+
+ 🔹 What is the Logical Schema?
+
+A Logical Schema represents the abstract design of the database. It focuses on:
+
+* Entities (e.g., Student, Course)
+
+* Attributes (e.g., student_name, date_of_birth)
+
+* Relationships (e.g., a student enrolls in courses)
+
+* Rules (like data types, constraints)
+
+It does not include details about how data is stored physically—just the structure and relationships.
+
+ 🔹 What is the Physical Schema?
+
+A Physical Schema is the implementation of the logical schema in a specific database system. It includes:
+
+* Actual table names
+
+* Column definitions with specific data types (e.g., VARCHAR(100))
+
+* Indexes
+
+* Storage details (e.g., partitions, tablespaces)
+
+* Performance tuning features
+
+It’s how the database is actually built on disk.
+
+
+🔹 Difference Between Logical and Physical Schema
+
+|Feature	|  Logical Schema	|Physical Schema|
+|-----------|-----------------|-----------------|
+|Level of Abstraction	| High-level (conceptual)	|Low-level (implementation)|
+|Focus |	What data is stored and relationships|	How data is stored|
+|Independence	|Independent of DBMS	|DBMS-specific|
+|Includes|	Entities, attributes, relationships|	Tables, columns, indexes, data types|
+Example| 	Entity: Student, Attribute: Name |	Table: student, Column: name VARCHAR(100)|
