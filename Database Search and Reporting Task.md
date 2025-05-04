@@ -284,7 +284,19 @@ A hospital management system using Microsoft SQL Server to manage patient record
 ----------------------------------------------
 🔹What languages do they use? 
 
+Each database engine uses a variation or extension of SQL (Structured Query Language). Here are some common examples:
 
+|Database Engine |	Language Used|
+|----------------|---------------|
+|SQL Server   |	T-SQL (Transact-SQL)|
+|Oracle	       |  PL/SQL (Procedural SQL)|
+|MySQL      |	ANSI SQL + MySQL-specific syntax |
+|PostgreSQL   |	ANSI SQL + PL/pgSQL |
+
+
+ANSI SQL is the standard version of SQL that most engines support.
+
+Engines extend ANSI SQL with their own features for more functionality.
 
  
  
